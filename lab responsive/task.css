@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    pad: 0;
+    box-sizing: border-box;
+}
+body{
+   
+    
+}
+.container{
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+nav{
+
+    display: flex;
+    flex-direction: column;
+    padding-left: .5rem;
+    
+}
+
+#logo{
+    
+    margin-top: 1rem;
+   
+    background-color: black;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+
+}
+#icons{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+}
+i{
+
+   
+    
+    margin-top: 1.5rem;
+
+}
+
+.text{
+    padding-top: 1rem;
+}
+.mainpic{
+    width: 80%;
+    height: 20%;
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
+main{
+  
+  
+    
+
+    
+}
+section{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.img{
+    width: 80%;
+    height: 50%;
+
+}
+.images{
+    display: flex;
+    justify-content: space-around;
+}
+
+
